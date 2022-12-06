@@ -1,11 +1,11 @@
 #include "my_mat.h"
 #include <stdio.h>
 #define matSize 10 
-#define INF 999999
+#define INF 2147483647
 
 
 //global variable
-int mat[matSize][matSize]={0};
+int mat[matSize][matSize]={};
 
 
 // this function fills all the places that contains '0' with INF 
