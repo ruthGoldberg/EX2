@@ -1,7 +1,7 @@
 #include "my_mat.h"
 #include <stdio.h>
 #define matSize 10 
-#define INF 2147483647
+#define INF 999999
 
 
 //global variable
@@ -26,7 +26,7 @@ void fillMyMat (){
 	for (int i=0 ; i < matSize ; i++){
 		for(int j=0 ; j < matSize ; j++){
 				int temp;
-				scanf("%d" , &temp);
+				scanf(" %d" , &temp);
 				mat[i][j]=temp;
 		}
 	}

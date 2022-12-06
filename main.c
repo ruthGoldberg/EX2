@@ -4,9 +4,9 @@
 
 int main(){
 
-	int i = 0;
-	int j = 0;
-	char input = 'E';
+	int i =0;
+	int  j =0;
+	char input='a';
 	
 
 	while( (input) != 'D' ){
