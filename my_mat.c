@@ -26,7 +26,7 @@ void fillMyMat (){
 	for (int i=0 ; i < matSize ; i++){
 		for(int j=0 ; j < matSize ; j++){
 				int temp;
-				scanf("%d " , &temp);
+				scanf(" %d" , &temp);
 				mat[i][j]=temp;
 		}
 	}
