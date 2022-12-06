@@ -5,7 +5,7 @@
 
 
 //global variable
-int mat[matSize][matSize];
+int mat[matSize][matSize]={};
 
 
 // this function fills all the places that contains '0' with INF 
