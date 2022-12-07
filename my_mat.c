@@ -4,6 +4,7 @@
 #define INF 999999
 
 
+
 //global variable
 int mat[matSize][matSize]={};
 

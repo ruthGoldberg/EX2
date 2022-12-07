@@ -6,7 +6,6 @@ all: my_mat.so connections
 connections: main.o 
 	$(CC)  $(FLAGS) -o connections main.o  ./my_mat.so 
 
-my_mat: my_mat.so 
 
 my_mat.so: my_mat.o
 	$(CC)  -shared -o my_mat.so my_mat.o
